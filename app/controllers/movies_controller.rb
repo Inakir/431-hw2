@@ -21,7 +21,7 @@ class MoviesController < ApplicationController
     else
       @movies = Movie.all
     end
-    
+
     #this right here is a fancy sort
     if (params[:sort] == "title")
       @movies = @movies.sort_by {|movie| movie.title}
