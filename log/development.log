@@ -262,3 +262,106 @@ Processing by MoviesController#index as HTML
   [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
   Rendered movies/index.html.haml within layouts/application (3.4ms)
 Completed 200 OK in 104ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 22:20:38 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 183ms (Views: 181.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-8fdb224436d96c89c2ab2e26bc11360f0e2d11a90ee56e89b6e41b79de722c58.css?body=1" for 127.0.0.1 at 2017-02-17 22:20:39 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 22:20:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (19.5ms)
+Completed 200 OK in 452ms (Views: 436.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 22:21:29 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 22:25:22 -0600
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 109ms (Views: 107.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?filter=&sort=title" for 127.0.0.1 at 2017-02-17 22:25:24 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"title"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 135ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?filter=&sort=title" for 127.0.0.1 at 2017-02-17 22:25:25 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"title"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 22:26:09 -0600
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 114ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?filter=&sort=title" for 127.0.0.1 at 2017-02-17 22:26:10 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"title"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?filter=&sort=release_date" for 127.0.0.1 at 2017-02-17 22:26:12 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"release_date"}
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?filter=&sort=title" for 127.0.0.1 at 2017-02-17 22:26:13 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"title"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 128ms (Views: 127.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?filter=&sort=release_date" for 127.0.0.1 at 2017-02-17 22:26:14 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"release_date"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 118ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?filter=&sort=title" for 127.0.0.1 at 2017-02-17 22:26:16 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"title"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 121ms (Views: 119.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?filter=&sort=release_date" for 127.0.0.1 at 2017-02-17 22:26:17 -0600
+Processing by MoviesController#index as HTML
+  Parameters: {"filter"=>"", "sort"=>"release_date"}
+  [1m[36mMovie Load (0.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
