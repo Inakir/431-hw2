@@ -4,8 +4,6 @@
     <list default="true" id="e1eefadb-a42d-403c-b811-2de2fe095a68" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/index.html.haml" afterPath="$PROJECT_DIR$/app/views/movies/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -52,8 +50,8 @@
       <file leaf-file-name="movies_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -414,12 +412,12 @@
       <updated>1487368350860</updated>
       <workItem from="1487368352725" duration="4324000" />
       <workItem from="1487372948531" duration="2085000" />
-      <workItem from="1487389417241" duration="6296000" />
+      <workItem from="1487389417241" duration="8646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12705000" />
+    <option name="totallyTimeSpent" value="15055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -690,16 +688,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding />
         </state>
       </provider>
