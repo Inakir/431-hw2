@@ -12,16 +12,21 @@ class MoviesController < ApplicationController
 
   #changes the way the movies are indexed
   def index
+    @all_ratings = Movie.all_ratings
 
     #this right here is a fancy sort
     if (params[:sort] == "title")
-      @movies = Movie.all.sort_by {|i| i.title}
+      @movies = Movie.all.sort_by {|movie| movie.title}
     elsif(params[:sort] == "release_date")
-      @movies = Movie.all.sort_by {|i| i.release_date}
+      @movies = Movie.all.sort_by {|movie| movie.release_date}
     else
       @movies = Movie.all
     end
+
+    #@movies = @movies.select {|movie| movie[:rating] == 'PG-13' }
     #end fancy sort
+
+
   end
 
   def new
