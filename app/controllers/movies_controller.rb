@@ -18,6 +18,9 @@ class MoviesController < ApplicationController
     @ratings = params[:ratings]
     if(@ratings !=nil)
       @movies = Movie.where("rating in (?)", @ratings.keys)
+      session[:ratings] = @ratings
+    elsif(session[:ratings] != nil)
+      @movies = Movie.where("rating in (?)", session[:ratings].keys)
     else
       @movies = Movie.all
     end
@@ -25,8 +28,14 @@ class MoviesController < ApplicationController
     #this right here is a fancy sort
     if (params[:sort] == "title")
       @movies = @movies.sort_by {|movie| movie.title}
+      session[:sort] = params[:sort]
     elsif(params[:sort] == "release_date")
       @movies = @movies.sort_by {|movie| movie.release_date}
+      session[:sort] = params[:sort]
+    elsif (session[:sort] == "title")
+        @movies = @movies.sort_by {|movie| movie.title}
+    elsif(session[:sort] == "release_date")
+        @movies = @movies.sort_by {|movie| movie.release_date}
     end
     #@movies = @movies.select {|movie| movie[:rating] == 'PG-13' }
     #end fancy sort
