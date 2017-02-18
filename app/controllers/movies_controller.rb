@@ -37,6 +37,8 @@ class MoviesController < ApplicationController
     elsif(session[:sort] == "release_date")
         @movies = @movies.sort_by {|movie| movie.release_date}
     end
+
+    @stored_ratings = session[:ratings]
     #@movies = @movies.select {|movie| movie[:rating] == 'PG-13' }
     #end fancy sort
 
